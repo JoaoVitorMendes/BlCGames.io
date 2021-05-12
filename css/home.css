@@ -1,0 +1,2481 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { background-color: #252627; }
+
+header {
+    width: 100%;
+    height: 60px;
+    box-shadow: 5px 4px 6px #38383A;
+    position: absolute;
+}
+
+header .mobile,
+.infoWSUnder, .menuMobile .contato,
+.menuMobileUp, .menuMobileDown,
+.touchAreaMobileMenu, .touchAreaMobileMenuClose,
+.menuMobile, .menuMobile nav, .menuMobile { display: none; }
+
+nav {
+    position: absolute;
+    right: 150px;
+    top: 17px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+nav a:hover { color: #a2aec3; }
+
+.logo {
+    position: absolute;
+    left: 150px;
+    top: -4px;
+    width: 100px;
+    height: 70px;
+    background-image: url('../midia/blcLogo.png');
+    background-size: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation {
+    color: #E1E5EC;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 24px;
+}
+
+.aR {
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    color: #E1E5EC;
+    font-size: 30px;
+    font-family: 'Hammersmith One', sans-serif;
+
+}
+
+.cyberP {
+    position: absolute;
+    top: 220px;
+    left: 190px;
+    color: #E1E5EC;
+    font-size: 25px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.cyberPImg {
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    width: 700px;
+    height: 350px;
+    /* border: solid 1px silver; */
+    background-image: url('https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_616x353.jpg?t=1608552868');
+    background-size: 698px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.cyberPImg, .assImg { transition: background-size 1s; }
+.cyberPImg:hover, .assImg:hover { background-size: 730px; }
+
+.info {
+    position: absolute;
+    top: 300px;
+    left: 880px;
+    color: #E1E5EC;
+    /* font-size: 30px; */
+    font-family: 'Hammersmith One', sans-serif;
+    width: 360px;
+}
+
+.notaC {
+    position: absolute;
+    top: 490px;
+    left: 890px;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    /* background-color: #003300; */
+    border: solid 4px #004d00;
+}
+
+.notaC h2 {
+    color: #E1E5EC;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 60px;
+    margin-left: 21px;
+    margin-top: 6px;
+}
+
+.notaCritica {
+    color: #E1E5EC;
+    font-family: 'Hammersmith One', sans-serif;
+    /* font-size: 60px; */
+    position: absolute;
+    top: 590px;
+    left: 880px;
+}
+
+/*  */
+.notaU {
+    position: absolute;
+    top: 490px;
+    left: 1070px;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    /* background-color: #003300; */
+    border: solid 4px #4b2e01;
+}
+
+.notaU h2 {
+    color: #E1E5EC;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 58px;
+    margin-left: 1px;
+    margin-top: 6px;
+}
+
+.notaUsuario {
+    color: #E1E5EC;
+    font-family: 'Hammersmith One', sans-serif;
+    /* font-size: 60px; */
+    position: absolute;
+    top: 590px;
+    left: 1050px;
+}
+/*  */
+
+.info a {
+    color: #7386a5;
+    text-decoration: none;
+}
+
+.info a:hover {
+    color: #a2aec3;
+    text-decoration: underline
+}
+
+/* ................................................ */
+
+.cc {
+    position: absolute;
+    right: -35px;
+}
+
+.acv {
+    position: absolute;
+    top: 650px;
+    right: 230px;
+    color: #E1E5EC;
+    font-size: 25px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.assImg {
+    position: absolute;
+    top: 685px;
+    right: 150px;
+    width: 700px;
+    height: 350px;
+    /* border: solid 1px silver; */
+    background-image: url('https://s2.glbimg.com/E_5qPTMBaPGLexKcSEksRjlUN5k=/0x0:1510x700/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/H/6/fFQMo1TNqrUNKKIvJAPw/ac-principal.jpg');
+    background-size: 747px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.info2 {
+    position: absolute;
+    top: 780px;
+    left: 90px;
+    color: #E1E5EC;
+    /* border: solid 1px silver; */
+    width: 390px;
+    /* font-size: 30px; */
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.info2 a {
+    color: #7386a5;
+    text-decoration: none;
+}
+
+.info2 a:hover {
+    color: #a2aec3;
+    text-decoration: underline
+}
+
+.notaA {
+    position: absolute;
+    top: 920px;
+    left: 360px;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    /* background-color: #003300; */
+    border: solid 4px #004d00;
+}
+
+.notaCriticaA {
+    color: #E1E5EC;
+    font-family: 'Hammersmith One', sans-serif;
+    /* font-size: 60px; */
+    position: absolute;
+    top: 1015px;
+    left: 350px;
+}
+
+.notaA h2, .notaAU h2 {
+    color: #E1E5EC;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 50px;
+    margin-left: 0px;
+    margin-top: 13px;
+}
+
+/*  */
+.notaAU h2 { margin-left: 1px; }
+.notaAU {
+    position: absolute;
+    top: 920px;
+    left: 200px;
+    width: 90px;
+    height: 90px;
+    border-radius: 7px;
+    border-radius: 45px;
+    /* background-color: #003300; */
+    border: solid 4px #004d00;
+}
+
+.notaUsuarioA {
+    color: #E1E5EC;
+    font-family: 'Hammersmith One', sans-serif;
+    /* font-size: 60px; */
+    position: absolute;
+    top: 1015px;
+    left: 170px;
+}
+/*  */
+
+.lineDiv {
+    position: absolute;
+    top: 1100px;
+    left: 150px;
+    width: 78%;
+    height: 3px;
+    background-color: #323c4e;
+    border: solid 1px transparent;
+}
+
+.infoI {
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+
+.for {
+    position: absolute;
+    top: 1150px;
+    left: 145px;
+    color: #E1E5EC;
+    font-size: 26px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.gender, .plataform {
+    color: #E1E5EC;
+    position: absolute;
+    top: 1200px;
+    left: 150px;
+    font-size: 20px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.plataform { top: 1650px; }
+
+.NavG, .NavP {
+    position: absolute;
+    top: 1240px;
+    left: 150px;
+}
+
+.NavP { top: 1690px; }
+
+.g, .p {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #a2aec3;
+    width: 94px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.p { width: 130px; }
+
+.g:hover, .p:hover { color: white; }
+
+.gameMaster {
+    /* border: solid 1px silver; */
+    position: absolute;
+    top: 1290px;
+    right: 150px;
+    width: 850px;
+    height: 392px;
+    transition: box-shadow 1s;
+}
+
+.infoWS {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 392px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.infoWS h2 {
+    color: #E1E5EC;
+    position: absolute;
+    font-family: 'Hammersmith One', sans-serif;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+}
+
+.starWars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 392px;
+    background-image: url('https://sm.ign.com/t/ign_br/slotter/default/fix-1_8gbg.560.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 296px;
+    transition: box-shadow 2s, top 1s;
+    border-radius: 10px;
+}
+
+.infoCOD {
+    position: absolute;
+    top: 0;
+    left: 310px;
+    width: 300px;
+    height: 392px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.infoCOD h2 {
+    color: #E1E5EC;
+    position: absolute;
+    font-family: 'Hammersmith One', sans-serif;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+}
+
+
+.cod {
+    position: absolute;
+    top: 0;
+    left: 310px;
+    width: 300px;
+    height: 392px;
+    background-image: url('https://programadoresbrasil.com.br/wp-content/uploads/2020/08/callofduty.2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 352px;
+    transition: box-shadow 2s, top 1s;
+    border-radius: 10px;
+}
+
+.infoH {
+    position: absolute;
+    top: 0;
+    left: 620px;
+    width: 230px;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.infoH h2 {
+    color: #E1E5EC;
+    position: absolute;
+    font-family: 'Hammersmith One', sans-serif;
+    position: absolute;
+    top: 197px;
+    text-align: center;
+}
+
+.hitman {
+    position: absolute;
+    top: 0;
+    left: 620px;
+    width: 230px;
+    height: 320px;
+    background-image: url('https://compass-ssl.xbox.com/assets/4e/32/4e32a081-f48a-4c51-9ae4-8fc2487921df.jpg?n=Hitman-3_GLP-Page-Hero-1084_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 560px;
+    transition: box-shadow 2s, top 1s;
+    border-radius: 10px;
+}
+
+.starWars:hover, .cod:hover {
+    box-shadow: 5px 5px 5px black;
+    top: -100px;
+    z-index: 1;
+}
+
+.hitman:hover {
+    box-shadow: 5px 5px 5px black;
+    top: -120px;
+    z-index: 1;
+}
+
+.more {
+    position: absolute;
+    top: -25px;
+    left: 760px;
+    color: #a2aec3;
+    font-family: 'Hammersmith One', sans-serif;
+    text-decoration: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 17px;
+}
+
+.more:hover {
+    color: #E1E5EC;
+    border: solid 2px #E1E5EC;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.notice {
+    position: absolute;
+    top: 1150px;
+    left: 725px;
+    color: #E1E5EC;
+    font-size: 26px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.lineDiv2 {
+    position: absolute;
+    top: 1805px;
+    right: 150px;
+    width: 65%;
+    height: 3px;
+    background-color: #323c4e;
+    border: solid 1px transp;
+}
+
+.masterMoreNotice {
+    position: absolute;
+    top: 1930px;
+    right: 150px;
+    width: 850px;
+    height: 1145px;
+}
+
+.fifa {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+/* ....................................... */
+.fifa a img, .sac a img, .nba a img {
+    height: 155px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.link {
+    color: #E1E5EC;
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    font-family: 'Hammersmith One', sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.nota {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+    /* background-color: #003300; */
+    border: solid 4px #004d00;
+}
+
+.nota h2 {
+    color: #E1E5EC;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.largura {
+    width: 850px;
+    height: 200px;
+    border: solid 1px #28303e;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+/* ....................................... */
+
+.sac {
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    height: 230px;
+}
+
+/* ............... */
+.sac .link, .nba .link { top: 45px; }
+
+.sac .nota { top: 125px; }
+
+.sac .nota h2, .aranha .nota h2 { margin-left: 12px; }
+
+.sac a img, .nba a img { margin-top: 35px; }
+/* ................. */
+
+.nba {
+    position: absolute;
+    top: 430px;
+    right: 0px;
+    height: 220px;
+}
+
+.nba a img { height: 145px; }
+.nba .nota { top: 120px }
+
+.aranha, .eSpace {
+    position: absolute;
+    top: 693px;
+    right: 0px;
+    height: 200px;
+}
+
+.aranha .link { top: 10px; }
+
+.eSpace { top: 940px; }
+
+
+.aranha a img, .eSpace a img { height: 155px; }
+.aranha .nota { top: 95px }
+
+.link:hover { color: #46536d; }
+
+footer {
+    position: absolute;
+    top: 3200px;
+    left: 150px;
+    width: 78%;
+    height: 240px;
+    border: solid 1px #E1E5EC;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+footer p {
+    color: #a4aec1;
+    font-family: 'Hammersmith One', sans-serif;
+    /* border: solid 1px silver; */
+    width: 670px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+footer a {
+    color: #727374;
+    text-decoration: none;
+}
+
+footer a:hover, footer .icons svg:hover, .bug:hover { color: #58595a; }
+
+footer .contato {
+    position: absolute;
+    top: 30px;
+    left: 850px;
+    width: 70px;
+}
+
+footer .navLink a {
+    display: block;
+    margin-top: 10px;
+}
+
+footer .navLink {
+    position: absolute;
+    top: 51px;
+    left: 885px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+footer .icons svg {
+    display: block;
+    margin-top: 10px;
+    color: #727374;
+}
+
+footer .icons {
+    position: absolute;
+    top: 50px;
+    left: 850px;
+}
+
+footer .view { top: 150px; }
+
+footer .bugText {
+    top: 170px;
+    left: 880px;
+    width: 160px;
+}
+
+footer .report {
+    position: absolute;
+    top: 195px;
+    left: 880px;
+    width: 160px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #727374;
+}
+
+footer .bug {
+    color: #727374;
+    position: absolute;
+    left: 850px;
+    top: 170px;
+}
+
+.noticias, .n {
+    color: #E1E5EC;
+    font-size: 26px;
+    font-family: 'Hammersmith One', sans-serif;
+    position: absolute;
+    top: 1870px;
+    left: 29%;
+}
+
+.n { left: 26%; }
+
+@media screen and (max-width: 1341px) {
+    .info2 {
+        width: 370px;
+        left: 105px;
+    }
+    .noticias { left: 27%; }
+    .n { left: 24%; }
+    .menuMobile { display: none; }
+}
+
+@media screen and (max-width: 1328px) {
+    .notaAU { left: 170px; }
+
+    .notaUsuarioA { left: 145px; }
+
+    .notaA { left: 333px; }
+
+    .notaCriticaA { left: 323px; }
+
+    .noticias { left: 363px; }
+
+   .n { left: 323px; }
+   .menuMobile { display: none; }
+
+}
+
+@media screen and (max-width: 1311px) {
+    .notaAU { left: 115px; }
+
+    .notaUsuarioA { left: 135px; }
+
+    .notaA { left: 300px; }
+
+    .notaCriticaA { left: 287px; }
+
+    .info2 {
+        width: 340px;
+        left: 65px;
+        top: 750px;
+    }
+
+    .notaUsuarioA { left: 90px; }
+    .menuMobile { display: none; }
+
+}
+
+@media screen and (max-width: 1343px) {
+    .notaAU { left: 149px; }
+
+    .notaUsuarioA { left: 145px; }
+
+    .notaA { left: 335px; }
+
+    .notaCriticaA { left: 325px; }
+
+    .info2 {
+        width: 340px;
+        left: 100px;
+        top: 750px;
+    }
+
+    .notaUsuarioA { left: 130px; }
+    .menuMobile { display: none; }
+
+}
+
+@media screen and (max-width: 1319px) {
+
+    .notaAU { left: 120px; }
+
+    .notaA { left: 305px; }
+
+    .notaCriticaA { left: 295px; }
+
+    .info2 {
+        width: 340px;
+        left: 80px;
+        top: 750px;
+    }
+
+    .notaUsuarioA { left: 90px; }
+    .menuMobile { display: none; }
+
+}
+
+@media screen and (max-width: 1309px) {
+    .noticias { left: 26%; }
+    .n { left: 23%; }
+    .menuMobile { display: none; }
+}
+
+@media screen and (max-width: 1303px) {
+    .notaAU { left: 100px; }
+
+    .notaA { left: 290px; }
+
+    .notaCriticaA { left: 280px; }
+
+    .info2 {
+        width: 340px;
+        left: 60px;
+        top: 750px;
+    }
+
+    .notaUsuarioA { left: 75px; }
+}
+
+@media screen and (max-width: 1319px) {
+    .noticias { left: 26%; }
+    .n { left: 23%; }
+}
+
+@media screen and (max-width: 1279px) {
+
+    .gameMaster { width: 830px; }
+    .more {
+        position: absolute;
+        top: -25px;
+        left: 740px;
+        width: 100px;
+    }
+    .n, .masterMoreNotice { left: 23%; }
+    .noticias { left: 26%; }
+}
+
+ @media screen and (max-width: 1245px) {
+
+    .notaAU { left: 65px; }
+
+    .notaA { left: 235px; }
+
+    .notaCriticaA { left: 230px; }
+
+    .info2 {
+        width: 340px;
+        left: 18px;
+        top: 750px;
+    }
+
+    .notaUsuarioA { left: 43px; }
+
+    .gameMaster { width: 800px; }
+    .info { width: 300px; }
+    .lineDiv2 { width: 64%; }
+
+    .n { left: 24%; }
+    .noticias { left: 27%; }
+
+    .masterMoreNotice { left: 24%; }
+
+    footer .contato, footer .icons,
+    footer .bug { left: 780px; }
+
+    footer .navLink, footer .bugText,
+    footer .report { left: 810px; }
+ }
+
+ @media screen and (max-width: 1221px) {
+
+    .notaAU { left: 45px; }
+    .notaUsuarioA { left: 22px; }
+
+    .notaA { left: 227px; }
+    .notaCriticaA { left: 210px; }
+
+    .info2 {
+        width: 350px;
+        left: 10px;
+        top: 740px;
+    }
+
+    .info {
+        top: 300px;
+    }
+
+
+    .gameMaster { width: 780px; }
+
+    .lineDiv2 { width: 64%; }
+
+    .n { left: 22%; }
+    .noticias { left: 25%; }
+
+    .masterMoreNotice { right: 80px; }
+
+    }
+
+ @media screen and (max-width: 1208px) {
+
+     .notaC {
+        position: absolute;
+        top: 620px;
+        left: 710px;
+        width: 70px;
+        height: 70px;
+        border-radius: 45px;
+     }
+
+     .notaC h2 {
+        font-size: 50px;
+        margin-left: 14px;
+        margin-top: 4px;
+     }
+
+    .notaU {
+        top: 620px;
+        left: 870px;
+        width: 70px;
+        height: 70px;
+        border-radius: 45px;
+    }
+
+    .notaU h2 {
+        font-size: 45px;
+        margin-left: 1px;
+        margin-top: 5px;
+     }
+
+     .notaUsuario {
+        top: 700px;
+        left: 840px;
+    }
+
+    .notaA { left: 227px; }
+
+    .notaCritica {
+        top: 700px;
+        left: 690px;
+    }
+    
+    .lineDiv2 { width: 64%; }
+    
+    .n { left: 22%; }
+    .noticias { left: 25%; }
+
+    .aR { left: 180px; }
+    
+    .cyberP {
+        top: 560px;
+        left: 190px;
+    }
+
+    .cyberPImg {
+        top: 200px;
+        left: 180px;
+        width: 810px;
+        height: 350px;
+        background-size: 808px;
+    }
+    .info {
+        top: 620px;
+        left: 190px;
+        width: 460px;
+    }
+    .cyberPImg:hover, .assImg:hover { background-size: 850px; }
+
+    .assImg {
+        top: 800px;
+        left: 180px;
+        width: 810px;
+        height: 350px;
+        background-size: 808px;
+        z-index: 3;
+    }
+
+    .acv {
+        top: 1165px;
+        left: 220px;
+    }
+
+    .cc { left: -30px; }
+
+    .info2 {
+        width: 420px;
+        left: 190px;
+        top: 1220px;
+    }
+
+    .notaA {
+        position: absolute;
+        top: 1210px;
+        left: 710px;
+        width: 70px;
+        height: 70px;
+        border-radius: 45px;
+    }
+
+    .notaA h2, .notaAU h2{
+        font-size: 39px;
+        margin-left: 1px;
+        margin-top: 9px;
+    }
+
+    .notaCriticaA {
+        left: 690px; 
+        top: 1285px
+    }
+
+    .notaUsuarioA {
+        left: 845px; 
+        top: 1285px
+    }
+
+    .notaAU {
+        top: 1200px;
+        left: 870px;
+        width: 70px;
+        height: 70px;
+        font-size: 39px;
+        margin-left: 1px;
+        margin-top: 9px;
+    }
+
+    .lineDiv {
+        top: 1350px;
+        left: 220px;
+        width: 63%;
+    }
+
+    .for, .gender {
+        top: 1370px;
+        left: 220px;
+    }
+
+    .gender { top: 1430px; }
+
+    .NavG, .plataform,
+    .NavP {
+        top: 1470px;
+        left: 220px;
+    }
+
+    .plataform { top: 1860px; }
+
+    .NavP { top: 1900px; }
+
+    .gameMaster {
+        top: 1520px;
+        left: 390px;
+        width: 612px;
+        height: 342px;
+    }
+
+    .starWars {
+        width: 300px;
+        height: 340px;
+    }
+
+    .infoWS {
+        width: 300px;
+        height: 342px;
+    }
+    .infoWS h2 { top: 249px; }
+    
+    .cod { height: 340px; }
+    .infoCOD h2 { top: 149px; }
+    .infoCOD { height: 240px; }
+    
+    .hitman, .infoH,
+    .infoH h2 { display: none; }
+
+    .more {
+        top: 345px;
+        left: 510px;
+    }
+
+    .lineDiv2 {
+        top: 1925px;
+        left: 390px;   
+        width: 52%;
+    }
+
+    .n, .noticias, .masterMoreNotice {
+        top: 1960px;
+        left: calc(32% + 10px);
+    }
+
+    .noticias { left: 36%; }
+
+    .masterMoreNotice {
+        top: 2010px;
+        /* right: 200px; */
+        width: 600px;
+        height: 1145px;
+    }
+
+    .largura {
+        width: 598px;
+        height: 200px;
+    }
+
+    .fifa a img, .sac a img  {
+        margin-top: 30px;
+    }
+
+    .fifa a, .nota, .sac a, .sac .nota, 
+    .nba a, .aranha a, .aranha .nota,
+    .eSpace .link {
+        left: 310px;
+        top: 40px;
+    }
+
+    .nota { top: 120px; }
+
+    .sac a img, .nba a img, .aranha a img,
+    .eSpace a img {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+    .sac .link { top: 27px; }
+
+    .sac .nota { top: 110px; }
+    
+    .sac { height: 190px; }
+
+    .nba {
+        top: 390px;
+        height: 180px;
+    }
+
+    .nba .link { top: 30px; }
+    .nba .nota { top: 97px; }
+
+    .aranha {
+        top: 574px;
+        height: 190px;
+    }
+    .aranha .nota { top: 110px; }
+
+    .eSpace { top: 764px; }
+
+    .eSpace a img { margin-top: 20px; }
+
+    .eSpace .nota { top: 110px; }
+
+    footer .bug, footer .icons,
+    footer .contato { left: 740px; }
+
+    footer .navLink, footer .report, 
+    footer .bugText { left: 780px; }
+
+    footer p { left: 30px; }
+
+    }
+
+    @media screen and (max-width: 1168px) {
+        .n { left: 34%; }
+
+        .noticias { left: 38%; }
+
+        .masterMoreNotice {
+            right: 155px;
+            height: 963px;
+        }
+        
+        footer { left: 115px; }
+        footer .bug, footer .icons, footer .contato { left: 720px; }
+
+        footer .navLink, footer .report, footer .bugText { left: 755px; }
+    }
+
+    @media screen and (max-width: 1146px) {
+        .masterMoreNotice {
+            left: 35%;
+            height: 963px;
+        }
+
+        .lineDiv { width: 790px; }
+        .lineDiv2 { width: 605px; }
+
+        .n { left: 390px; }
+    }
+
+    @media screen and (max-width: 1113px) {
+
+        .for { left: 190px; }
+        .gender, .NavG { left: 230px; }
+
+        .masterMoreNotice {
+            right: 127px;
+            height: 963px;
+        }
+        
+        .n { left: 377px; }
+
+        .lineDiv {
+            width: 720px;
+            left: 195px;
+        }
+
+        .lineDiv2 {
+            width: 57%;
+            left: 375px;
+        }
+
+        .cyberPImg, .assImg { width: 740px; }
+
+        .notaC { left: 670px }
+        .notaCritica { left: 650px }
+        .notaU { left: 800px }
+        .notaUsuario { left: 780px }
+
+        .notaA { left: 640px }
+        .notaCriticaA { left: 620px }
+        .notaAU { left: 790px }
+        .notaUsuarioA { left: 760px }
+
+        footer .bug, footer .icons, footer .contato { left: 660px; }
+        footer .bugText, footer .navLink, footer .report { left: 700px; }
+        footer p { 
+            left: 30px;
+            width: 550px;
+        }
+    }
+
+    @media screen and (max-width: 1089px) {
+
+        .masterMoreNotice {
+            right: 95px;
+            height: 963px;
+        }
+        
+        .cyberPImg, .assImg, .lineDiv { width: 720px; }
+
+        .lineDiv2 {
+            width: 58%;
+            left: 375px;
+        }
+
+        .n { left: 35%; }
+        .noticias { left: 39%; }
+
+        footer .bug, footer .icons, footer .contato { left: 660px; }
+        footer .bugText, footer .navLink, footer .report { left: 700px; }
+        footer p { 
+            left: 30px;
+            width: 550px;
+        }
+    }
+
+    @media screen and (max-width: 1073px) {
+
+        .masterMoreNotice {
+            right: 85px;
+            height: 963px;
+        }
+        
+        .lineDiv {
+            width: 720px;
+            left: 195px;
+        }
+
+        .lineDiv2 {
+            width: 59%;
+            left: 375px;
+        }
+
+        .n { left: 35%; }
+        .noticias { left: 39%; }
+
+        footer { width: 760px; }
+        footer .contato, footer .icons, footer .bug { left: 600px; }
+        footer .navLink, footer .bugText, footer .report { left: 630px; }
+        footer p { 
+            left: 30px;
+            width: 550px;
+        }
+    }
+
+    @media screen and (max-width: 1047px) {
+
+        .cyberPImg {
+            top: 200px;
+            left: 150px;
+            width: 700px;
+            height: 350px;
+        }
+
+        .aR { left: 150px; }
+        .cyberP, .cyberP, .info, .info2 { left: 160px; }
+
+
+        .notaC {
+            position: absolute;
+            top: 630px;
+            left: 640px;
+            width: 60px;
+            height: 60px;
+            border-radius: 45px;
+         }
+    
+         .notaC h2 {
+            font-size: 50px;
+            margin-left: 9px;
+            margin-top: 0px;
+         }
+
+         .notaCritica {
+            top: 700px;
+            left: 615px;
+         }
+    
+        .notaU {
+            top: 630px;
+            left: 780px;
+            height: 70px;
+            width: 60px;
+            height: 60px;
+            border-radius: 45px;
+        }
+
+        .notaUsuario {
+            top: 700px;
+            left: 750px;
+        }
+    
+        .notaU h2 {
+            font-size: 39px;
+            margin-left: 1px;
+            margin-top: 3px;
+         }
+
+         .assImg {
+            left: 150px;
+            width: 700px;
+            height: 350px;
+         }
+
+         .cc { left: -60px; }
+         .acv  { left: 210px; }
+         .acv svg { margin-left: 15px; }
+
+         .notaA, .notaAU {
+            top: 1223px;
+            left: 610px;
+            height: 70px;
+            width: 60px;
+            height: 60px;
+         }
+
+         .notaAU {
+             left: 750px;
+             top: 1215px;
+        }
+         .notaCriticaA { left: 580px; }
+         .notaUsuarioA {  left: 720px; }
+
+         .notaA h2, .notaAU h2 {
+            font-size: 30px;
+            margin-left: 1px;
+            margin-top: 10px;
+         }
+
+        .masterMoreNotice {
+            right: 85px;
+            height: 963px;
+        }
+        
+        .lineDiv {
+            width: 700px;
+            left: 165px;
+        }
+
+        .lineDiv2 {
+            width: 59%;
+            left: 375px;
+            top: 1870px;
+            left: 321px;
+        }
+
+        .for { left: 16%; }
+        .gender, .NavG, .plataform, .NavP { left: 18%; }
+
+        .gameMaster {
+            top: 1450px;
+            left: 320px;
+        }
+        .n, .noticias {
+            left: 31%;
+            top: 1910px;
+        }
+        .noticias { left: 35%; }
+
+        .masterMoreNotice {
+            left: 35%;
+            top: 1950px;
+        }
+
+        footer { width: 760px; }
+        footer .contato, footer .icons, footer .bug { left: 600px; }
+        footer .navLink, footer .bugText, footer .report { left: 630px;}
+
+        footer p { 
+            left: 30px;
+            width: 550px;
+        }
+    }
+
+    @media screen and (max-width: 1018px) {
+
+        .n { left: 35%; }
+        .noticias { left: 39%; }
+
+        footer {
+            width: 800px;
+            left: 100px;
+            top: 3000px;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+
+        .lineDiv {
+            width: 76%;
+            left: 150px;
+        }
+
+        .lineDiv2 {
+            width: 61%;
+            left: 320px;
+        }
+    }
+
+    @media screen and (max-width: 997px) {
+
+        nav { right: 100px; }
+
+        .lineDiv { width: 75%; }
+
+        .notaA, .notaAU {
+            top: 1223px;
+            left: 600px;
+            height: 70px;
+            width: 60px;
+            height: 60px;
+         }
+
+         .notaAU {
+             left: 755px;
+             top: 1215px;
+        }
+
+         .notaCriticaA { left: 580px; }
+         .notaUsuarioA {  left: 720px; }
+
+         footer {
+            width: 800px;
+            left: 60px;
+            top: 3000px;
+        }
+    }
+
+    @media screen and (max-width: 898px) {
+
+        .logo { left: 80px; }
+
+        .navigation { font-size: 22px; }
+        header nav {
+            left: 320px;
+            width: 500px;
+        }
+
+        .aR, .cyberPImg {
+            left: 80px;
+            top: 120px;
+        }
+        .cyberPImg { top: 170px; }
+
+        .cyberPImg, .assImg { width: 710px; }
+
+        .cyberP {
+            left: 90px;
+            top: 540px;
+        }
+
+        .info {
+            left: 90px;
+            top: 600px;
+        }
+
+        .notaC {
+            left: 565px;
+            top: 610px;
+        }
+
+        .notaCritica {
+            left: 545px;
+            top: 680px;
+        }
+
+        .notaU {
+            left: 707px;
+            top: 610px;
+        }
+
+        .notaUsuario {
+            left: 680px;
+            top: 680px;
+        }
+
+        .acv { left: 140px; }
+        .assImg { left: 80px; }
+        .info2 { left: 100px; }
+
+        .notaA { left: 560px; }
+        .notaCriticaA { left: 540px; }
+        .notaAU { left: 700px; }
+        .notaUsuarioA { left: 670px; }
+
+        .lineDiv {
+            width: 85%;
+            left: 80px;
+        }
+
+        .for { left: 90px; }
+        .gender, .plataform { left: 130px; }
+        .NavG, .NavP { left: 130px; display: block; }
+
+        .gameMaster {
+            left: 250px;
+            width: 550px;
+            height: 320px;
+        }
+
+        .starWars, .cod, .infoWS, .infoCOD {
+            width: 300px;
+            height: 320px;
+        }
+        
+        .infoWS, .infoCOD { top: 0; }
+
+        .infoWS h2, .infoCOD h2 { top: 229px; }
+        .more {
+            left: 93%;
+            top: 330px;
+        }
+
+        .lineDiv2 {
+            width: 67%;
+            left: 260px;
+        }
+
+        .n, .masterMoreNotice { left: 30%; }
+        .noticias { left: 34%; }
+
+        footer {
+            width: 730px;
+            left: 80px;
+            height: 250px;
+        }
+
+        footer p { left: 0; }
+        footer .icons, footer .navLink { display: block; }
+        footer .bug { left: 600px; }
+        footer .contato, footer .icons, footer .bug { left: 580px; }
+        footer .navLink,  footer .bugText { left: 610px; }
+    }
+
+    @media screen and (max-width: 869px) {
+
+        header nav { right: -510px; }
+        .cyberPImg,
+        .assImg {
+            width: 688px;
+            left: 80px;
+        }
+
+        .notaU,
+        .notaUsuario,
+        .notaAU,
+        .notaUsuarioA,
+        .infoCOD, .cod { display: none; }
+        
+        .plataform, .NavP {
+            top: 1430px;
+            left: 470px;
+        }
+
+        .NavP { top: 1470px; }
+        
+        .gameMaster {
+            left: 130px;
+            width: 630px;
+            height: 320px;
+            top: 1900px;
+            background-color: rgba(0, 0, 0, 0.418);
+            border-radius: 200px 200px 200px;
+        }
+        .starWars {
+            border-radius: 200px 10px 10px 200px;
+        }
+        .starWars:hover {
+            top: 0;
+            box-shadow: 4px 4px 4px #333;
+        }
+        .infoWS {
+            top: 90px;
+            left: 310px;
+            background-color: transparent;
+            font-size: 16px;
+            text-shadow:  2px 2px 4px black;
+            border-bottom: solid 1px #262626;
+            height: 100px;
+            border-radius: 0;
+        }
+
+        .gameMaster:hover { box-shadow: 4px 4px 4px black; }
+
+        .infoWS h2 { top: -20px; }
+
+        .more {
+            top: 290px;
+            left: 410px;
+        }
+
+        .more:hover {
+            border: 0;
+            color: #E1E5EC;
+            border-bottom: solid 2px #E1E5EC;
+            text-shadow: 1px 1px 3px #0d0d0d;
+        }
+
+        .lineDiv { width: 80%; }
+        .lineDiv2 {
+            width: 80%;
+            left: 80px;
+            top: 2290px;
+        }
+
+  
+        .n {
+            top: 2310px;
+            left: 90px;
+        }
+        .noticias {
+            top: 2310px;
+            left: 130px;
+            font-size: 22px;
+        }
+
+        .masterMoreNotice {
+            left: 90px;
+            top: 2350px;
+        }
+
+        .masterMoreNotice .aranha .link { top: 33px; }
+
+        footer {
+            top: 3400px;
+            left: 80px;
+            width: 80%;
+            height: 350px;
+        }
+
+        footer p { 
+            left: 0;
+            width: 650px;
+        }
+
+        footer .view { top: 130px; }
+
+        footer .contato, footer .icons {
+            left: 0;
+            top: 200px;
+        }
+
+        footer .icons { top: 220px; }
+
+        footer .icons svg { 
+            display: inline-block;
+            margin-right: 100px;
+        }
+
+        footer .navLink {
+            left: 35px;
+            top: 220px;
+            display: inline-block;
+        }
+
+        footer .navLink a {
+            width: 63px;
+            display: inline-block;
+            margin-right: 55px;
+        }
+
+        footer .bug, footer .bugText, footer .report {
+            left: 0;
+            top: 280px;
+        }
+
+        footer .bugText, footer .report { left: 35px; }
+
+        footer .report { top: 310px; }
+
+        .cyberPImg,
+        .assImg {
+            width: 690px;
+            left: 80px;
+        }
+
+        .notaC { left: 640px; }
+        .notaCritica { left: 620px; }
+
+        .info { width: 500px; }
+
+        .assImg { background-size: 780px; }
+
+        .lineDiv, .lineDiv2 { width: 82%; }
+}
+
+    @media screen and (max-width: 846px) {
+
+        header nav { left: 270px; }
+        .cyberPImg,
+        .assImg {
+            width: 668px;
+            left: 80px;
+        }
+
+        .lineDiv, .lineDiv2 { width: 81%; }
+
+        .gameMaster { left: 100px; }
+
+        footer { width: 82%; }
+
+    }
+
+    @media screen and (max-width: 824px) {
+        .cyberPImg,
+        .assImg {
+            width: 648px;
+            left: 80px;
+        }
+
+        .assImg { transition: background-size 2s }
+
+        .assImg { background-size: 740px; }
+
+        .notaC { left: 620px; }
+        .notaCritica { left: 600px; }
+
+        .lineDiv, .lineDiv2 { width: 80%; }
+
+        .gameMaster { left: 80px; }
+
+        footer { width: 82%; }
+
+    }
+
+    @media screen and (max-width: 787px) {
+
+        header nav {
+            left: 198px;
+            width: 550px;
+        }
+        .logo, .aR { left: 40px; }
+        .navigation {
+            font-size: 23px;
+            margin-right: 0;
+            margin-left: 30px;
+        }
+
+        .cyberPImg,
+        .assImg {
+            width: 680px;
+            left: 40px;
+        }
+        .cyberP, .info { left: 55px; }
+
+        .assImg {transition: background-size 2s }
+        .assImg { background-size: 740px; }
+
+        .notaC { left: 600px; }
+        .notaCritica { left: 580px; }
+
+        .acv { left: 100px; }
+        .acv svg { margin-left: 25px; }
+        .info2 { left: 65px; }
+        .notaA { left: 520px; }
+        .notaCriticaA { left: 500px; }
+
+        .lineDiv, .lineDiv2 {
+            left: 40px;
+            width: 90%;
+        }
+
+        .for { left: 55px; }
+        .gender, .NavG { left: 95px; }
+        .gameMaster { left: 80px; }
+        .n, .masterMoreNotice{ left: 55px; }
+        .noticias { left: 95px; }
+
+        footer {
+            left: 40px;
+            width: 90%;
+        }
+    }
+    
+    @media screen and (max-width: 764px) {
+
+        .cyberPImg, .assImg,
+        .lineDiv, .lineDiv2 { width: 655px; }
+
+        header { height: 50px }
+        .touchAreaMobileMenuOpen {
+            position: absolute;
+            left: 40px;
+            /* border: solid 1px silver; */
+            width: 60px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 10;
+        }
+        
+        .touchAreaMobileMenuClose {
+            position: absolute;
+            left: 40px;
+            width: 60px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 10;
+        }
+        
+        .menuMobileUp, .menuMobileDown {
+            display: block;
+            width: 23px;
+            height: 1px;
+            border-radius: 5px;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            background-color: #E1E5EC;
+            z-index: 10;
+        }
+
+        .menuMobileDown { top: 30px; }
+        
+        .menuMobile {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            /* width: 50%; */
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: 2;
+            animation: mymoveFront 1s;
+        }
+        
+        @keyframes mymoveFront {
+            from { left: -50%;} 
+            to { left: 0%; }
+        }
+        
+        @keyframes mymoveBack {
+            from { left: 0%; }
+            to { left: -50%; }
+          }
+          
+          ol {
+            position: absolute;
+            top: 60px;
+            left: 40px;
+            transition: left 3s;
+        }
+        
+        ol li {
+            padding-top: 35px;
+            width: 50px;
+            list-style: none;
+            padding-bottom: 5px;
+            border-bottom: solid 1px rgba(70, 84, 109, 0.8);
+            transition: width 1s;
+        }
+
+        ol li:hover { width: 150px }
+        
+        ol li .navegation {
+            color: #E1E5EC;
+            font-family: 'Hammersmith One', sans-serif;
+            font-size: 25px;
+            text-decoration: none;
+            padding-right: 50px;
+        }
+        
+        ol li .navegation:hover { color: #50607c; }
+        
+        header nav { display: none; }
+        .menuMobile nav {
+            display: block;
+            position: absolute;
+            left: 28px;
+            top: 400px;
+            width: 200px;
+            transition: left 1s;
+        }
+
+        .menuMobile nav a {
+            margin-right: 0;
+            color: #50607c;
+            font-size: 15px;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        header .logo {
+            left: 45%;
+            top: -25px;
+            width: 100px;
+            height: 80px;
+            background-size: 65px;
+        }
+
+
+        .gameMaster { left: 75px; }
+    }
+
+    @media screen and (max-width: 712px) {
+        .cyberPImg,
+        .assImg { width: 610px; }
+
+        .notaC { left: 573px; }
+        .notaCritica { left: 545px; }
+
+        .lineDiv, .lineDiv2 { width: 620px; }
+
+        .gameMaster { left: 40px; }
+
+        footer { width:  610px;}
+        footer p { width: 600px;}
+    }
+
+    @media screen and (max-width: 660px) {
+        .cyberPImg,
+        .assImg { width: 556px; }
+
+        .notaC {
+            left: 530px;
+            top: 173px;
+            box-shadow: 5px 5px 8px black;
+        }
+
+        .notaC h2 { color: rgba(0, 0, 0, 10); }
+        .notaCritica, .notaCriticaA { display: none; }
+
+        
+        .assImg { background-size: 650px; }
+        .assImg:hover { background-size: 670px; }
+        .acv { top: 1148px; }
+        .info2 { top: 1190px; }
+        .notaA {
+            left: 530px;
+            top: 828px;
+            box-shadow: 5px 5px 8px black;
+            z-index: 4;
+        }
+
+        .notaA h2 { color: black; }
+        
+        .lineDiv, .lineDiv2 { width: 556px; }
+        .lineDiv { top: 1330px; }
+
+        .for { top: 1350px; }
+        .gender, .plataform  { top: 1410px; }
+        .NavG, .NavP { top: 1450px; }
+        .plataform, .NavP { left: 440px; }
+
+        .gameMaster {
+            left: 20px;
+            width: 600px;
+            height: 290px;
+        }
+
+        .more { top: 260px; }
+
+        .starWars { height: 290px; }
+        .infoWS { left: 295px; }
+
+        .masterMoreNotice {
+            width: 550px;
+            height: 600px;
+        }
+
+        .largura {
+            width: 548px;
+            height: 200px;
+        }
+
+        .sac a img, .nba a img, 
+        .aranha a img, .eSpace a img {
+            margin-top: 25px;
+            width: 290px;
+        }
+
+        .masterMoreNotice .fifa { top: 0; }
+        .masterMoreNotice .fifa .link {
+            top: 28px;
+            font-size: 25px;
+        }
+
+        .sac { top: 190px; }
+        .nba { top: 380px; }
+
+        .aranha, .eSpace { display: none; }
+
+        footer {
+            top: 3000px;
+            width: 556px;
+        }
+
+        footer p { width: 560px; }
+        footer .view { top: 140px; }
+        footer .contato { top: 220px; }
+        footer .icons { top: 240px; }
+        footer .navLink { top: 240px; }
+
+        footer .bug { top: 295px; }
+        footer .bugText { top: 295px; }
+        footer .report { top: 320px; }
+    }
+
+    @media screen and (max-width: 620px) {
+        .cyberPImg,
+        .assImg {
+            width: 515px;
+            height: 300px
+        }
+
+        .cyberP { top: 490px; }
+        .info { top: 540px; }
+
+        .assImg { top: 690px; }
+        .acv {
+            top: 1010px;
+            width: 300px;
+        }
+        .info2 { top: 1060px; }
+
+        .notaC {
+            left: 490px;
+            top: 173px;
+            box-shadow: 5px 5px 8px black;
+        }
+
+        .notaC h2 { color: rgba(0, 0, 0, 10); }
+        .notaCritica, .notaCriticaA { display: none; }
+
+        
+        .assImg { background-size: 650px; }
+        .assImg:hover { background-size: 670px; }
+
+        .notaA {
+            left: 490px;
+            top: 695px;
+            box-shadow: 5px 5px 8px black;
+            z-index: 4;
+        }
+
+        .notaA h2 { color: black; }
+        
+        .lineDiv, .lineDiv2 { width: 515px; }
+        .lineDiv { top: 1200px; }
+
+        .for { top: 1230px; }
+        .gender, .plataform  { top: 1300px; }
+        .NavG, .NavP { top: 1340px; }
+        .plataform, .NavP { left: 430px; }
+
+        .gameMaster {
+            top: 1770px;
+            left: 29px;
+            width: 550px;
+            height: 250px;
+        }
+        .starWars {
+            height: 250px;
+            width: 240px;
+        }
+
+        .infoWS {
+            font-size: 13px;
+            left: 239px;
+        }
+        .more {
+            top: 220px;
+            left: 370px;
+        }
+
+        .n, .noticias ,
+         .masterMoreNotice, .lineDiv2{ display: none; }
+
+        footer {
+            top: 2100px;
+            width: 515px;
+        }
+
+        footer p { width: 500px; }
+        footer .view { top: 155px; }
+        footer .contato { top: 220px; }
+        footer .icons { top: 240px; }
+        footer .navLink { top: 240px; }
+
+        footer .bug { top: 295px; }
+        footer .bugText { top: 295px; }
+        footer .report { top: 320px; }
+    }
+
+    @media screen and (max-width: 582px) {
+        .cyberPImg,
+        .assImg {
+            width: 480px;
+            height: 300px
+        }
+
+        .cyberP { top: 490px; }
+        .info {
+            top: 540px;
+            width: 460px;
+        }
+
+        .info2 { top: 1060px; }
+
+        .notaC { left: 457px;  }
+        
+        .assImg { background-size: 560px; }
+        .assImg:hover { background-size: 580px; }
+
+        .notaA {
+            left: 457px;
+            top: 713px;
+        }
+        
+        .lineDiv, .lineDiv2 { width: 480px; }
+        .lineDiv { top: 1200px; }
+
+        .for { top: 1230px; }
+        .gender, .plataform  { top: 1300px; }
+        .NavG, .NavP { top: 1340px; }
+        .plataform, .NavP { left: 380px; }
+
+        .gameMaster {
+            top: 1770px;
+            left: 15px;
+            width: 530px;
+            height: 290px;
+            background-color: transparent;
+            transition: background-color 2s;
+        }
+
+        .gameMaster:hover { background-color: rgba(0, 0, 0, 0.418); }
+        .starWars {
+            height: 290px;
+            width: 240px;
+        }
+
+        .infoWS {
+            font-size: 10px;
+            left: 239px;
+        }
+        .more {
+            top: 259px;
+            left: 335px;
+        }
+
+        .n, .noticias ,
+         .masterMoreNotice, .lineDiv2{ display: none; }
+
+        footer {
+            top: 2100px;
+            width: 480px;
+        }
+
+        footer p { width: 460px; }
+        footer .view { display: none; }
+        footer .contato { top: 190px; }
+        footer .icons { top: 225px; }
+        footer .navLink {
+            top: 227px;
+            width: 400px;
+        }
+
+        footer .bug { top: 280px; }
+        footer .bugText { top: 282px; }
+        footer .report { top: 310px; }
+    }
+
+    @media screen and (max-width: 541px) {
+        .cyberPImg,
+        .assImg {
+            width: 440px;
+            height: 250px;
+            background-size: 560px;
+        }
+
+        .cyberPImg:hover { background-size: 570px; }
+
+        .cyberP { top: 440px; }
+        .info {
+            top: 500px;
+            width: 430px;
+        }
+
+        .info2 { top: 970px; }
+
+        .notaC { left: 417px;  }
+        
+        .assImg {
+            background-size: 520px;
+            top: 650px;
+        }
+        .assImg:hover { background-size: 530px; }
+
+        .notaA {
+            left: 417px;
+            top: 659px;
+        }
+
+        .acv { top: 920px; }
+        
+        .lineDiv, .lineDiv2 { width: 440px; }
+        .lineDiv { top: 1100px; }
+
+        .for { top: 1120px; }
+        .gender, .plataform  { top: 1180px; }
+        .NavG, .NavP { top: 1215px; }
+        .plataform, .NavP { left: 350px; }
+
+        .gameMaster {
+            top: 1650px;
+            left: 44px;
+            width: 450px;
+            height: 250px;
+            background-color: transparent;
+            transition: background-color 2s;
+        }
+
+        .gameMaster:hover { background-color: rgba(0, 0, 0, 0.418); }
+        .starWars {
+            height: 250px;
+            width: 240px;
+        }
+        .infoWS {
+            font-size: 12px;
+            left: 70px;
+            top: 280px
+        }
+        .more {
+            top: 220px;
+            left: 260px;
+        }
+
+        footer {
+            top: 2020px;
+            width: 450px;
+        }
+
+        footer p { width: 440px; }
+        footer .view { display: none; }
+        footer .contato { top: 190px; }
+        footer .icons {
+            top: 225px;
+            width: 400px;
+        }
+        
+        footer .navLink {
+            top: 227px;
+            width: 400px;
+        }
+
+        footer .bug { top: 280px; }
+        footer .bugText { top: 282px; }
+        footer .report { top: 310px; }
+    }
+
+    @media screen and (max-width: 500px) {
+        .cyberPImg,
+        .assImg {
+            width: 410px;
+            height: 250px;
+            background-size: 560px;
+        }
+        .info {
+            top: 500px;
+            width: 400px;
+        }
+
+        .info2 {
+            top: 970px;
+            width: 379px;
+        }
+        .notaC { left: 385px;  }
+        
+        .assImg { background-size: 450px; }
+        .assImg:hover { background-size: 470px; }
+
+        .notaA {
+            left: 385px;
+            top: 673px;
+        }
+        
+        .lineDiv, .lineDiv2 { width: 410px; }
+        .lineDiv { top: 1100px; }
+
+        .plataform, .NavP { left: 300px; }
+
+        .gameMaster {
+            top: 1650px;
+            left: 42px;
+            width: 400px;
+            height: 230px;
+            background-color: transparent;
+            transition: background-color 2s;
+        }
+
+        .gameMaster:hover { background-color: rgba(0, 0, 0, 0.418); }
+        .starWars {
+            height: 230px;
+            width: 240px;
+        }
+        .infoWS {
+            font-size: 12px;
+            left: 45px;
+            top: 260px
+        }
+        .more {
+            top: 170px;
+            left: 250px;
+        }
+
+        footer {
+            top: 2020px;
+            width: 410px;
+            height: 200px;
+        }
+
+        footer p { width: 420px; }
+        footer .view, .contato,
+        footer .icons, footer .navLink,
+        .bug, .bugText, .report { display: none; }
+    }
+
+    @media screen and (max-width: 504px) {
+        .cyberPImg,
+        .assImg {
+            width: 410px;
+            height: 250px;
+            background-size: 560px;
+        }
+
+        .cyberP, .acv, .aR, .for { font-size: 19px; }
+
+        .info {
+            top: 490px;
+            width: 370px;
+        }
+
+        .acv { top: 900px }
+        .info2 {
+            top: 940px;
+            width: 359px;
+        }
+
+        .notaC, .notaA { left: 385px;  }
+        .notaA { top: 680px; }
+        .assImg { background-size: 420px; border-radius: 20px;}
+        .assImg:hover { background-size: 440px; }
+
+        
+        .lineDiv, .lineDiv2 { width: 410px; }
+        .lineDiv { top: 1100px; }
+
+        .plataform, .NavP { left: 250px; }
+
+        .gender, .plataform { font-size: 18px; }
+        .gameMaster {
+            top: 1650px;
+            left: 72px;
+            width: 350px;
+            height: 200px;
+        }
+
+        .starWars {
+            height: 200px;
+            width: 200px;
+            background-size: 198px;
+        }
+        .infoWS {
+            font-size: 11px;
+            left: 20px;
+            top: 240px
+        }
+        .more {
+            font-size: 16px;
+            top: 170px;
+            left: 210px;
+        }
+        .more:hover { border-bottom: none; }
+
+        footer {
+            top: 1950px;
+            width: 410px;
+            height: 200px;
+        }
+
+        footer p { width: 390px; }
+        
+    }
+
+    /*  */
+
+
+    @media screen and (max-width: 385px) {
+        .cyberPImg,
+        .assImg {
+            width: 300px;
+            height: 230px;
+            background-size: 560px;
+        }
+
+        .cyberP {
+            top: 420px;
+            left: 100px;
+        }
+
+        .info {
+            top: 460px;
+            width: 310px;
+            left: 40px;
+        }
+
+        .acv {
+            top: 880px;
+            left: 90px;
+            width: 240px;
+        }
+        .info2 {
+            top: 920px;
+            left: 40px;
+            width: 300px;
+        }
+
+        .lineDiv {
+            width: 300px; 
+            top: 1080px;
+        }
+
+        .for {
+            top: 1090px;
+            left: 70px;
+        }
+
+        .plataform, .NavP { left: 215px; }
+        .gender, .NavG { left: 60px; }
+        .gender, .plataform { top: 1150px; }
+        .NavG, .NavP { top: 1185px; }
+
+        .notaC, .notaA { left: 275px;  }
+        .notaA { top: 686px; }
+        .assImg { background-size: 350px; border-radius: 20px;}
+        .assImg:hover { background-size: 360px; }
+
+        .menuMobile { width: 100%;}
+
+        .gameMaster {
+            top: 1650px;
+            left: 20px;
+            width: 330px;
+            height: 170px;
+        }
+
+        .starWars {
+            height: 170px;
+            width: 200px;
+            background-size: 200px;
+        }
+        .infoWS {
+            font-size: 11px;
+            left: 10px;
+            top: 210px;
+            height: 30px;
+        }
+
+        .more {
+            font-size: 16px;
+            top: 140px;
+            left: 205px;
+        }
+        .more:hover { border-bottom: none; }
+
+        footer {
+            top: 1950px;
+            width: 300px;
+            height: 200px;
+        }
+
+        footer p { width: 325px; }
+        
+    }

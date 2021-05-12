@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/93/e7/63/93e763dcb6fc09ecb4ed179a359df6a2.gif');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-color: black;
+}
+
+.text-slide { display: none; }
+
+.logo {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    background-image: url('../midia/blcLogo.png');
+    background-size: 150px;
+    background-position: center;
+    transition: background-size 1s;
+}
+
+.hour {
+    font-size: 23px;
+    color: green;
+    position: absolute;
+    left: calc(48% + 10px);
+    top: 23%;
+    display: none;
+}
+
+.logo:hover { background-size: 165px; }
+
+.introducao {
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    color: #a2aec3;
+    width: 970px;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+}
+
+.introducao .dateNow { color: red; }
+
+.introducao a {
+    text-decoration: none;
+    color: #7386a5;
+}
+
+.introducao a:hover {
+    color: #E1E5EC;
+    text-decoration: underline;
+}
